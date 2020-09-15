@@ -12,10 +12,11 @@ body {
 }
 
 .content {
-    height: 100vh;
+    height: calc(100vh - 2vh);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
     
     .title {
         display: flex;
@@ -29,4 +30,19 @@ body {
         text-align: center;
         border-radius: 1vh;
     }
+
+    .link {
+        margin-top: 10vh;
+        a {
+            color: white;
+            font-size: 3vh;
+            text-decoration: none;
+        }
+    }
+}
+
+footer {
+    height: 2vh;
+    color: white;
+    a { color: white;}
 }
