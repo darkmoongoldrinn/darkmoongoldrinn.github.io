@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'World of Warcraft';
+  src: url(./resources/fonts/LifeCraft_Font.ttf);
+}
+
+body {
+  background-image: url("https://wow.zamimg.com/uploads/screenshots/normal/980034.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'World of Warcraft';
+}
+
+.content {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  height: 30vh;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 5vh;
+  text-align: center;
+  border-radius: 1vh;
+}
+/*# sourceMappingURL=style.css.map */
